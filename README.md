@@ -14,8 +14,6 @@
 
 - Might take a minute or two since it's on the free plan in Render
 
-A modern, full-stack notes application built with the MERN stack. ThinkBoard allows users to create, read, update, and delete notes with a clean and intuitive interface.
-
 ## Purpose
 
 ThinkBoard was developed as a hands-on learning project to understand how modern web development works through practical implementation. By building this full-featured notes application, I gained real-world experience with:
