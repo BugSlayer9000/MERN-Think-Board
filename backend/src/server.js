@@ -31,7 +31,6 @@ import path from "path";
 
 import notesRoutes from "./routes/notesRoutes.js";
 import { connectDB } from "./config/db.js";
-import ratelimiter from "./middleware/rateLimiter.js";
 
 dotenv.config();
 
@@ -47,7 +46,6 @@ if (process.env.NODE_ENV !== "production") {
   );
 }
 app.use(express.json());
-app.use(ratelimiter);
 
 app.use("/api/notes", notesRoutes);
 

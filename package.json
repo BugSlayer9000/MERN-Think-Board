@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/BugSlayer9000/MERN-Think-Board/issues"
   },
-  "homepage": "https://github.com/BugSlayer9000/MERN-Think-Board#readme"
+  "homepage": "https://github.com/BugSlayer9000/MERN-Think-Board#readme",
+  "dependencies": {
+    "upstash": "^0.0.1"
+  }
 }
